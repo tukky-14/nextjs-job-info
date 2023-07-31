@@ -1,12 +1,13 @@
 import Header from '@/components/Header';
 import Link from 'next/link';
 import info from '../img/info.png';
+import holiday from '../img/holiday.png';
 
 const infoList = [
     {
-        title: 'Business Causual',
-        href: '/',
-        imageSrc: info.src,
+        title: '祝日',
+        href: '/holiday',
+        imageSrc: holiday.src,
     },
     {
         title: 'Business Causual',
@@ -50,7 +51,7 @@ export default function Home() {
         <>
             <div className="bg-white py-6 sm:py-8 lg:py-12">
                 <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-                    <Header />
+                    <Header title="仕事でよく使うやつ" />
                     <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4">
                         {infoList.map((info) => (
                             <div key={info.title}>
