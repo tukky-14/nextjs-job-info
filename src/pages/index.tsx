@@ -1,6 +1,5 @@
 import Header from '@/components/Header';
 import Link from 'next/link';
-import info from '../img/info.png';
 import holiday from '../img/holiday.png';
 import ascii from '../img/ascii.png';
 import http from '../img/http.png';
@@ -20,31 +19,6 @@ const infoList = [
         title: 'HTTPステータスコード',
         href: '/http',
         imageSrc: http.src,
-    },
-    {
-        title: 'Business Causual',
-        href: '/',
-        imageSrc: info.src,
-    },
-    {
-        title: 'Business Causual',
-        href: '/',
-        imageSrc: info.src,
-    },
-    {
-        title: 'Business Causual',
-        href: '/',
-        imageSrc: info.src,
-    },
-    {
-        title: 'Business Causual',
-        href: '/',
-        imageSrc: info.src,
-    },
-    {
-        title: 'Business Causual',
-        href: '/',
-        imageSrc: info.src,
     },
 ];
 
