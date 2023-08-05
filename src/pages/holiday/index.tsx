@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import BackButton from '@/components/BackButton';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { API_ENDPOINT } from '@/consts/api';
 
 export default function Holiday() {
     const [years, setYears] = useState<string[]>([]);
@@ -14,7 +15,7 @@ export default function Holiday() {
     useEffect(() => {
         (async () => {
             // 祝日取得
-            const { data } = await axios.get('https://holidays-jp.github.io/api/v1/date.json');
+            const { data } = await axios.get(API_ENDPOINT.HOLIDAYS_JP);
             const holidays: any = Object.entries(data).map(([date, name]) => ({
                 date: date.replace(/-/g, '/'),
                 name,
