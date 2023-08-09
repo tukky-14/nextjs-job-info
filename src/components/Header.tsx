@@ -8,9 +8,7 @@ const Header = (props: Props) => {
     const { title } = props;
 
     return (
-        <h2 className="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">
-            {title}
-        </h2>
+        <h2 className="mb-6 text-center text-xl font-bold text-gray-800 lg:text-2xl">{title}</h2>
     );
 };
 
