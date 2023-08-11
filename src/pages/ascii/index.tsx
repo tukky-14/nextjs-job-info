@@ -28,28 +28,28 @@ export default function Ascii() {
         <Container>
             <Header title="アスキーコード" />
             <table className="table-auto m-auto mb-5">
-                <thead>
-                    <tr>
-                        <th className="py-1">文字</th>
-                        <th className="py-1">10進数</th>
-                        <th className="py-1">16進数</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {asciiCodes.map((asciiCode) => (
-                        <tr key={asciiCode.decimal}>
-                            <td className="w-40 text-center px-4 py-1 border-b">
-                                {asciiCode.string}
-                            </td>
-                            <td className="w-40 text-center px-4 py-1 border-b">
-                                {asciiCode.decimal}
-                            </td>
-                            <td className="w-40 text-center px-4 py-1 border-b">
-                                {asciiCode.hexadecimal}
-                            </td>
-                        </tr>
-                    ))}
-                </tbody>
+                <div className="flex text-center font-bold">
+                    <p className="w-20 sm:w-40 py-1">文字</p>
+                    <p className="w-20 sm:w-40 py-1">10進数</p>
+                    <p className="w-20 sm:w-40 py-1">16進数</p>
+                </div>
+                <div className="h-96 overflow-scroll">
+                    <tbody>
+                        {asciiCodes.map((asciiCode) => (
+                            <tr key={asciiCode.decimal}>
+                                <td className="w-20 sm:w-40 text-center px-4 py-1 border-b">
+                                    {asciiCode.string}
+                                </td>
+                                <td className="w-20 sm:w-40 text-center px-4 py-1 border-b">
+                                    {asciiCode.decimal}
+                                </td>
+                                <td className="w-20 sm:w-40 text-center px-4 py-1 border-b">
+                                    {asciiCode.hexadecimal}
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </div>
             </table>
             <BackButton />
         </Container>
