@@ -27,7 +27,7 @@ export default function Home() {
     return (
         <Container>
             <Header title="仕事でよく使うやつ" />
-            <div className="px-6 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="px-6 grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
                 {infoList.map((info) => (
                     <div key={info.title}>
                         <Link
@@ -42,7 +42,7 @@ export default function Home() {
                             />
 
                             <div className="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                                <span className="text-lg font-bold text-gray-800 lg:text-xl">
+                                <span className="text-lg font-bold text-gray-600 lg:text-xl">
                                     {info.title}
                                 </span>
                             </div>
