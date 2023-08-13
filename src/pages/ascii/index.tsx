@@ -13,12 +13,8 @@ interface AsciiCode {
 export default function Ascii() {
     const [asciiCodes, setAsciiCodes] = useState<AsciiCode[]>([]);
 
-    /**
-     * 初期処理
-     */
     useEffect(() => {
         (async () => {
-            // 祝日取得
             const { data } = await axios.get<AsciiCode[]>('/ascii.json');
             setAsciiCodes(data);
         })();
@@ -27,7 +23,7 @@ export default function Ascii() {
     return (
         <Container>
             <Header title="アスキーコード" />
-            <table className="table-auto m-auto mb-5">
+            <table className="table-auto m-auto">
                 <div className="flex text-center font-bold">
                     <p className="w-20 sm:w-40 py-1">文字</p>
                     <p className="w-20 sm:w-40 py-1">10進数</p>

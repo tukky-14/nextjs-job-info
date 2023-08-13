@@ -10,9 +10,6 @@ export default function Holiday() {
     const [holidays, setHolidays] = useState([{ date: '', name: '' }]);
     const [selectHolidays, setSelectHolidays] = useState([{ date: '', name: '' }]);
 
-    /**
-     * 初期処理
-     */
     useEffect(() => {
         (async () => {
             // 祝日取得
@@ -47,7 +44,7 @@ export default function Holiday() {
     return (
         <Container>
             <Header title="祝日" />
-            <div className="m-auto w-full sm:w-2/3 text-sm font-medium text-center text-gray-500 dark:text-gray-400 dark:border-gray-700">
+            <div className="m-auto w-full sm:w-2/3 text-sm font-medium text-center">
                 <ul className="flex justify-center flex-wrap mb-2">
                     {years.map((year) => (
                         <li className="mr-2" key={year}>
@@ -60,7 +57,7 @@ export default function Holiday() {
                         </li>
                     ))}
                 </ul>
-                <table className="table-auto m-auto mb-5">
+                <table className="table-auto m-auto">
                     <thead>
                         <tr>
                             <th className="py-1">日付</th>
