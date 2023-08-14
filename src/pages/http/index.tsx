@@ -26,17 +26,19 @@ export default function Http() {
                 <div className="w-16 text-center">コード</div>
                 <div className="ml-2">説明</div>
             </div>
-            {httpCodes.map((httpCode) => (
-                <div
-                    key={httpCode.code}
-                    className="flex items-center justify-between border-b border-gray-200 py-4 text-sm sm:text-base"
-                >
-                    <div className="flex items-center">
-                        <div className="w-16 text-center font-medium">{httpCode.code}</div>
-                        <div className="flex-1 ml-2">{httpCode.message}</div>
+            <div className="h-96 overflow-scroll">
+                {httpCodes.map((httpCode) => (
+                    <div
+                        key={httpCode.code}
+                        className="flex items-center justify-between border-b border-gray-200 py-4 text-sm sm:text-base"
+                    >
+                        <div className="flex items-center">
+                            <div className="w-16 text-center font-medium">{httpCode.code}</div>
+                            <div className="flex-1 ml-2">{httpCode.message}</div>
+                        </div>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
             <BackButton />
         </Container>
     );
