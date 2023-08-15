@@ -24,7 +24,7 @@ export default function Http() {
             <Header title="HTTPステータスコード" />
             <div className="flex items-center font-bold">
                 <div className="w-16 text-center">コード</div>
-                <div className="ml-2">説明</div>
+                <div className="flex-1 ml-2 w-full text-center sm:text-left">説明</div>
             </div>
             <div className="h-96 overflow-scroll">
                 {httpCodes.map((httpCode) => (

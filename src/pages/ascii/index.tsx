@@ -23,13 +23,13 @@ export default function Ascii() {
     return (
         <Container>
             <Header title="アスキーコード" />
-            <table className="table-auto m-auto">
-                <div className="flex text-center font-bold">
-                    <p className="w-20 sm:w-40 py-1">文字</p>
-                    <p className="w-20 sm:w-40 py-1">10進数</p>
-                    <p className="w-20 sm:w-40 py-1">16進数</p>
-                </div>
-                <div className="h-96 overflow-scroll">
+            <div className="flex justify-center text-center font-bold">
+                <p className="w-20 sm:w-40 py-1">文字</p>
+                <p className="w-20 sm:w-40 py-1">10進数</p>
+                <p className="w-20 sm:w-40 py-1">16進数</p>
+            </div>
+            <div className="h-96 overflow-scroll">
+                <table className="table-auto m-auto">
                     <tbody>
                         {asciiCodes.map((asciiCode) => (
                             <tr key={asciiCode.decimal}>
@@ -45,8 +45,8 @@ export default function Ascii() {
                             </tr>
                         ))}
                     </tbody>
-                </div>
-            </table>
+                </table>
+            </div>
             <BackButton />
         </Container>
     );
