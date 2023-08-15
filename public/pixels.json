@@ -1,0 +1,104 @@
+[
+    {
+        "resolution": "320 x 240",
+        "name": "QVGA",
+        "pixels": 7.68,
+        "usage": "小さなディスプレイ、古い携帯電話"
+    },
+    {
+        "resolution": "640 x 480",
+        "name": "VGA",
+        "pixels": 30.72,
+        "usage": "ウェブカム、古いビデオゲーム"
+    },
+    {
+        "resolution": "800 x 600",
+        "name": "SVGA",
+        "pixels": 48.0,
+        "usage": "デスクトップモニター、プレゼンテーション"
+    },
+    {
+        "resolution": "1024 x 768",
+        "name": "XGA",
+        "pixels": 78.76,
+        "usage": "デスクトップモニター、プロジェクター、プレゼンテーション"
+    },
+    {
+        "resolution": "1280 x 720",
+        "name": "HD (720p)",
+        "pixels": 92.16,
+        "usage": "オンライン動画、テレビ番組、ウェブコンテンツ"
+    },
+    {
+        "resolution": "1280 x 800",
+        "name": "WXGA",
+        "pixels": 102.4,
+        "usage": "ノートパソコン、デスクトップモニター"
+    },
+    {
+        "resolution": "1366 x 768",
+        "name": "HD (768p)",
+        "pixels": 104.91,
+        "usage": "ノートパソコン、テレビ番組、ウェブコンテンツ"
+    },
+    {
+        "resolution": "1440 x 900",
+        "name": "WXGA+",
+        "pixels": 129.6,
+        "usage": "ノートパソコン、デスクトップモニター"
+    },
+    {
+        "resolution": "1600 x 900",
+        "name": "HD+",
+        "pixels": 144.0,
+        "usage": "デスクトップモニター、ウェブコンテンツ"
+    },
+    {
+        "resolution": "1680 x 1050",
+        "name": "WSXGA+",
+        "pixels": 176.4,
+        "usage": "デスクトップモニター、グラフィック作業"
+    },
+    {
+        "resolution": "1920 x 1080",
+        "name": "Full HD (1080p)",
+        "pixels": 207.36,
+        "usage": "テレビ、映画、ゲーム、ウェブコンテンツ"
+    },
+    {
+        "resolution": "2560 x 1440",
+        "name": "Quad HD (1440p)",
+        "pixels": 368.64,
+        "usage": "プロフェッショナルモニター、ゲーム、映像制作"
+    },
+    {
+        "resolution": "3440 x 1440",
+        "name": "UWQHD",
+        "pixels": 495.36,
+        "usage": "ウルトラワイドモニター、映像制作、ゲーム"
+    },
+    {
+        "resolution": "3840 x 2160",
+        "name": "4K Ultra HD",
+        "pixels": 829.44,
+        "usage": "映画、ビデオ編集、ゲーム、プロフェッショナルモニター"
+    },
+    {
+        "resolution": "5120 x 2880",
+        "name": "5K Ultra HD",
+        "pixels": 1474.56,
+        "usage": "映像制作、プロフェッショナルモニター"
+    },
+    {
+        "resolution": "7680 x 4320",
+        "name": "8K Ultra HD",
+        "pixels": 3317.76,
+        "usage": "映画、ビデオ編集、プロフェッショナルモニター"
+    },
+    {
+        "resolution": "10240 x 4320",
+        "name": "10K Ultra HD",
+        "pixels": 4423.68,
+        "usage": "映画制作などの特殊用途"
+    }
+]
