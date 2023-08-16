@@ -4,6 +4,7 @@ import Link from 'next/link';
 import holiday from '../img/holiday.png';
 import ascii from '../img/ascii.png';
 import http from '../img/http.png';
+import pixels from '../img/pixels.png';
 
 const infoList = [
     {
@@ -20,6 +21,11 @@ const infoList = [
         title: 'HTTPステータスコード',
         href: '/http',
         imageSrc: http.src,
+    },
+    {
+        title: 'ディスプレイ解像度',
+        href: '/pixels',
+        imageSrc: pixels.src,
     },
 ];
 
