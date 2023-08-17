@@ -5,6 +5,7 @@ import holiday from '../img/holiday.png';
 import ascii from '../img/ascii.png';
 import http from '../img/http.png';
 import pixels from '../img/pixels.png';
+import inch from '../img/inch.png';
 
 const infoList = [
     {
@@ -26,6 +27,11 @@ const infoList = [
         title: 'ディスプレイ解像度',
         href: '/pixels',
         imageSrc: pixels.src,
+    },
+    {
+        title: 'デバイスサイズ',
+        href: '/inch',
+        imageSrc: inch.src,
     },
 ];
 
