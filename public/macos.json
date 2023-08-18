@@ -1,0 +1,110 @@
+[
+    {
+        "version": "System 1",
+        "name": "-",
+        "release": "1984",
+        "functions": "初のMac OSバージョン。GUIベースのオペレーティングシステム。"
+    },
+    {
+        "version": "System 7",
+        "name": "-",
+        "release": "1991",
+        "functions": "コピー＆ペースト、アプルメニューなどの基本的なGUI機能を追加。"
+    },
+    {
+        "version": "Mac OS 8",
+        "name": "-",
+        "release": "1997",
+        "functions": "マルチスレッドサポート、オーバーラップウィンドウなどの改善。"
+    },
+    {
+        "version": "Mac OS 9",
+        "name": "-",
+        "release": "1999",
+        "functions": "インターネット関連の機能強化、パフォーマンスの向上など。"
+    },
+    {
+        "version": "Mac OS X 10.0",
+        "name": "Cheetah",
+        "release": "2001",
+        "functions": "新しいUnixベースのオペレーティングシステム、Aqua UI導入。"
+    },
+    {
+        "version": "Mac OS X 10.3",
+        "name": "Panther",
+        "release": "2003",
+        "functions": "Exposé、FileVault、Safariなどの新機能追加。"
+    },
+    {
+        "version": "Mac OS X 10.4",
+        "name": "Tiger",
+        "release": "2005",
+        "functions": "Spotlight、Dashboard、Automatorなどを追加。"
+    },
+    {
+        "version": "Mac OS X 10.5",
+        "name": "Leopard",
+        "release": "2007",
+        "functions": "Boot Camp、Time Machine、Spacesなどの新機能導入。"
+    },
+    {
+        "version": "Mac OS X 10.6",
+        "name": "Snow Leopard",
+        "release": "2009",
+        "functions": "パフォーマンス向上、64ビットアプリサポート、Grand Central Dispatchなど。"
+    },
+    {
+        "version": "OS X 10.7",
+        "name": "Lion",
+        "release": "2011",
+        "functions": "Mission Control、Launchpad、全画面アプリサポートなどを追加。"
+    },
+    {
+        "version": "OS X 10.9",
+        "name": "Mavericks",
+        "release": "2013",
+        "functions": "メモリ圧縮、タブルーター、iCloudキーチェーンなどの新機能。"
+    },
+    {
+        "version": "OS X 10.10",
+        "name": "Yosemite",
+        "release": "2014",
+        "functions": "デザイン変更、コンティニュイティ、Handoffなどの統合機能。"
+    },
+    {
+        "version": "macOS 10.12",
+        "name": "Sierra",
+        "release": "2016",
+        "functions": "Siri統合、自動アンロック、iCloudドライブの改善など。"
+    },
+    {
+        "version": "macOS 10.13",
+        "name": "High Sierra",
+        "release": "2017",
+        "functions": "APFSファイルシステム、Metal 2、VRサポートなどを導入。"
+    },
+    {
+        "version": "macOS 10.14",
+        "name": "Mojave",
+        "release": "2018",
+        "functions": "ダークモード、Stacks、グループFaceTimeなどの新機能。"
+    },
+    {
+        "version": "macOS 10.15",
+        "name": "Catalina",
+        "release": "2019",
+        "functions": "32ビットアプリのサポート終了、Sidecar、Catalystなど。"
+    },
+    {
+        "version": "macOS 11.0",
+        "name": "Big Sur",
+        "release": "2020",
+        "functions": "デザイン変更、コントロールセンター、iOSアプリ対応など。"
+    },
+    {
+        "version": "macOS 12.0",
+        "name": "Monterey",
+        "release": "2021",
+        "functions": "ユニバーサルコントロール、シェアプレイ、新Safariなど。"
+    }
+]

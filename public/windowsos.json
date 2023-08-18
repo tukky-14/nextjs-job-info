@@ -1,0 +1,57 @@
+[
+    {
+        "version": "Windows 1.0",
+        "release": "1985",
+        "functions": "初のWindowsバージョン。GUIを導入し、マルチタスキングをサポート。"
+    },
+    {
+        "version": "Windows 3.0",
+        "release": "1990",
+        "functions": "スタートメニューやアイコンの導入、拡張メモリサポートなどを追加。"
+    },
+    {
+        "version": "Windows 95",
+        "release": "1995",
+        "functions": "スタートボタン、タスクバーなどを導入。プラグアンドプレイなどの改良。"
+    },
+    {
+        "version": "Windows 98",
+        "release": "1998",
+        "functions": "USBサポート、インターネット統合、Windows Updateなどを追加。"
+    },
+    {
+        "version": "Windows 2000",
+        "release": "2000",
+        "functions": "プロフェッショナル向けの安定性強化、アクティブディレクトリなどを導入。"
+    },
+    {
+        "version": "Windows XP",
+        "release": "2001",
+        "functions": "新デザイン、ユーザーアカウント制御、安定性向上などを提供。"
+    },
+    {
+        "version": "Windows Vista",
+        "release": "2007",
+        "functions": "新インタフェース、ユーザーアカウント制御、DirectX 10などを導入。"
+    },
+    {
+        "version": "Windows 7",
+        "release": "2009",
+        "functions": "タスクバー改善、タッチサポート、パフォーマンス向上などを追加。"
+    },
+    {
+        "version": "Windows 8",
+        "release": "2012",
+        "functions": "モダンUI、スタート画面、タッチ最適化などを導入。"
+    },
+    {
+        "version": "Windows 10",
+        "release": "2015",
+        "functions": "スタートメニュー復活、Cortana、仮想デスクトップなどを提供。"
+    },
+    {
+        "version": "Windows 11",
+        "release": "2021",
+        "functions": "新デザイン、センタードタスクバー、Microsoft Store改善などを導入。"
+    }
+]

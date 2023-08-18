@@ -1,0 +1,77 @@
+[
+    {
+        "version": "iOS 1.0",
+        "release": "2007",
+        "functions": "初のiOSバージョン。iPhoneの基本機能、Safariブラウザ、メールなどを提供。"
+    },
+    {
+        "version": "iOS 2.0",
+        "release": "2008",
+        "functions": "App Storeの導入、3Gネットワークサポート、Appアイコンバッジなどを追加。"
+    },
+    {
+        "version": "iOS 3.0",
+        "release": "2009",
+        "functions": "カット、コピー、ペースト機能、ボイスメモ、Spotlightなどを導入。"
+    },
+    {
+        "version": "iOS 4.0",
+        "release": "2010",
+        "functions": "マルチタスク、FaceTime、Retinaディスプレイサポートなどを提供。"
+    },
+    {
+        "version": "iOS 5.0",
+        "release": "2011",
+        "functions": "通知センター、iMessage、Siri、iCloudなどを導入。"
+    },
+    {
+        "version": "iOS 6.0",
+        "release": "2012",
+        "functions": "Appleマップス、パスブック、Facebook統合などを提供。"
+    },
+    {
+        "version": "iOS 7.0",
+        "release": "2013",
+        "functions": "フラットデザイン、コントロールセンター、Touch IDなどを導入。"
+    },
+    {
+        "version": "iOS 8.0",
+        "release": "2014",
+        "functions": "ウィジェット、アクション拡張、Apple Payなどを提供。"
+    },
+    {
+        "version": "iOS 9.0",
+        "release": "2015",
+        "functions": "Split View、Slide Over、Proactive Siriなどを追加。"
+    },
+    {
+        "version": "iOS 10.0",
+        "release": "2016",
+        "functions": "Rich Notifications、ホームアプリ、iMessage拡張などを導入。"
+    },
+    {
+        "version": "iOS 11.0",
+        "release": "2017",
+        "functions": "ARKit、Filesアプリ、ドラッグアンドドロップなどを提供。"
+    },
+    {
+        "version": "iOS 12.0",
+        "release": "2018",
+        "functions": "スクリーンタイム、Memoji、グループFaceTimeなどを導入。"
+    },
+    {
+        "version": "iOS 13.0",
+        "release": "2019",
+        "functions": "ダークモード、サインインwith Apple、カメラと写真の改善など。"
+    },
+    {
+        "version": "iOS 14.0",
+        "release": "2020",
+        "functions": "ウィジェットスタック、Appライブラリ、プライバシー強化などを追加。"
+    },
+    {
+        "version": "iOS 15.0",
+        "release": "2021",
+        "functions": "Focusモード、FaceTimeの改善、ウィジェットの拡張などを提供。"
+    }
+]
