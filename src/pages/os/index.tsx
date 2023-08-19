@@ -24,10 +24,14 @@ export default function Os() {
         (async () => {
             const {
                 data,
-            }: { data: Record<string, { name: string; release: string; addFunction: string }> } =
-                await axios.get(`/${selectOs?.toLowerCase()}.json`);
+            }: {
+                data: Record<
+                    string,
+                    { version: string; name: string; release: string; addFunction: string }
+                >;
+            } = await axios.get(`/${selectOs?.toLowerCase()}.json`);
             const osData: OsType[] = Object.entries(data).map(([version, data]) => ({
-                version,
+                version: data.version,
                 name: data.name,
                 release: data.release,
                 addFunction: data.addFunction,
@@ -61,29 +65,29 @@ export default function Os() {
                         </li>
                     ))}
                 </ul>
-                <div className="flex justify-center font-bold">
-                    <p className="w-20 py-1">バージョン</p>
-                    {selectOs === 'macos' && <p className="w-40 py-1">名称</p>}
-                    <p className="w-40 py-1">リリース</p>
-                    <p className="w-60 py-1">追加機能</p>
+                <div className="flex justify-center font-bold text-xs sm:text-sm">
+                    <p className="w-28 sm:w-40 py-1">バージョン</p>
+                    {selectOs === 'macos' && <p className="hidden sm:block w-24 py-1">名称</p>}
+                    <p className="w-20 py-1">リリース</p>
+                    <p className="flex-1 py-1">追加機能</p>
                 </div>
-                <div className="overflow-scroll h-96">
+                <div className="overflow-scroll h-96 text-xs sm:text-sm">
                     <table className="table-auto m-auto">
-                        <tbody className="text-xs sm:text-baseoverflow-scroll h-96">
+                        <tbody className="overflow-scroll h-96">
                             {osData.map((os: any) => (
                                 <tr key={os.version}>
-                                    <td className="w-20 text-center px-4 py-1 border-b">
+                                    <td className="w-28 sm:w-40 text-center px-1 sm:px-4 py-1 border-b">
                                         {os.version}
                                     </td>
                                     {selectOs === 'macos' && (
-                                        <td className="w-40 text-center px-4 py-1 border-b">
+                                        <td className="hidden sm:table-cell w-24 text-center px-1 sm:px-4 py-1 border-b">
                                             {os.name}
                                         </td>
                                     )}
-                                    <td className="w-40 text-center px-4 py-1 border-b">
+                                    <td className="w-20 text-center px-1 sm:px-4 py-1 border-b">
                                         {os.release}
                                     </td>
-                                    <td className="w-60 text-center px-4 py-1 border-b">
+                                    <td className="flex-1 text-left px-1 sm:px-4 py-1 border-b">
                                         {os.addFunction}
                                     </td>
                                 </tr>
