@@ -23,7 +23,7 @@ export default function Inch() {
 
     return (
         <Container>
-            <Header title="ディスプレイ解像度" />
+            <Header title="デバイスサイズ" />
             <div className="max-w-md m-auto flex justify-center items-center font-bold">
                 <p className="w-40 text-center">インチ</p>
                 <p className="w-40 text-center">幅</p>
