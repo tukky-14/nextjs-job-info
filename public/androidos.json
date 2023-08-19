@@ -2,71 +2,71 @@
     {
         "version": "Android 1.0",
         "release": "2008",
-        "functions": "初のAndroidバージョン。スマートフォン向けの基本的な機能を提供。"
+        "addFunction": "初のAndroidバージョン。スマートフォン向けの基本的な機能を提供。"
     },
     {
         "version": "Android 1.5",
         "release": "2009",
-        "functions": "カップケーキ。ウィジェット、カメラ機能強化、Bluetooth対応などを追加。"
+        "addFunction": "カップケーキ。ウィジェット、カメラ機能強化、Bluetooth対応などを追加。"
     },
     {
         "version": "Android 2.0",
         "release": "2009",
-        "functions": "エクレア。Googleマップスナビゲーション、連絡先の統合などを導入。"
+        "addFunction": "エクレア。Googleマップスナビゲーション、連絡先の統合などを導入。"
     },
     {
         "version": "Android 2.3",
         "release": "2010",
-        "functions": "ジンジャーブレッド。NFCサポート、ビデオ通話、UI改善などを提供。"
+        "addFunction": "ジンジャーブレッド。NFCサポート、ビデオ通話、UI改善などを提供。"
     },
     {
         "version": "Android 4.0",
         "release": "2011",
-        "functions": "アイスクリームサンドイッチ。ハードウェアアクセラレーション、Face Unlockなどを導入。"
+        "addFunction": "アイスクリームサンドイッチ。ハードウェアアクセラレーション、Face Unlockなどを導入。"
     },
     {
         "version": "Android 4.4",
         "release": "2013",
-        "functions": "キットカット。透明なステータスバー、OK Google、Immersive Modeなどを追加。"
+        "addFunction": "キットカット。透明なステータスバー、OK Google、Immersive Modeなどを追加。"
     },
     {
         "version": "Android 5.0",
         "release": "2014",
-        "functions": "ロリポップ。マテリアルデザイン、通知センター改善、ART実行環境などを提供。"
+        "addFunction": "ロリポップ。マテリアルデザイン、通知センター改善、ART実行環境などを提供。"
     },
     {
         "version": "Android 6.0",
         "release": "2015",
-        "functions": "マシュマロ。パーミッション改善、Dozeモード、Google Now On Tapなどを導入。"
+        "addFunction": "マシュマロ。パーミッション改善、Dozeモード、Google Now On Tapなどを導入。"
     },
     {
         "version": "Android 7.0",
         "release": "2016",
-        "functions": "ヌガー。マルチウィンドウ、通知グルーピング、Dozeモード強化などを提供。"
+        "addFunction": "ヌガー。マルチウィンドウ、通知グルーピング、Dozeモード強化などを提供。"
     },
     {
         "version": "Android 8.0",
         "release": "2017",
-        "functions": "オレオ。通知チャンネル、ピクチャー・イン・ピクチャー、バッテリー最適化などを追加。"
+        "addFunction": "オレオ。通知チャンネル、ピクチャー・イン・ピクチャー、バッテリー最適化などを追加。"
     },
     {
         "version": "Android 9.0",
         "release": "2018",
-        "functions": "パイ。ジェスチャーナビゲーション、デジタルウェルビーイング、アダプティブバッテリーなど。"
+        "addFunction": "パイ。ジェスチャーナビゲーション、デジタルウェルビーイング、アダプティブバッテリーなど。"
     },
     {
         "version": "Android 10",
         "release": "2019",
-        "functions": "システムダークモード、ジェスチャー操作改善、プライバシーコントロールなど。"
+        "addFunction": "システムダークモード、ジェスチャー操作改善、プライバシーコントロールなど。"
     },
     {
         "version": "Android 11",
         "release": "2020",
-        "functions": "チャットバブル、コンテキストメニュー、画面録画などの新機能を提供。"
+        "addFunction": "チャットバブル、コンテキストメニュー、画面録画などの新機能を提供。"
     },
     {
         "version": "Android 12",
         "release": "2021",
-        "functions": "UI変更、プライバシーインジケーター、大規模なウィジェットなどの新機能。"
+        "addFunction": "UI変更、プライバシーインジケーター、大規模なウィジェットなどの新機能。"
     }
 ]
