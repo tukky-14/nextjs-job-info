@@ -6,6 +6,7 @@ import ascii from '../img/ascii.png';
 import http from '../img/http.png';
 import pixels from '../img/pixels.png';
 import inch from '../img/inch.png';
+import os from '../img/os.png';
 
 const infoList = [
     {
@@ -32,6 +33,11 @@ const infoList = [
         title: 'デバイスサイズ',
         href: '/inch',
         imageSrc: inch.src,
+    },
+    {
+        title: 'OSバージョン',
+        href: '/os',
+        imageSrc: os.src,
     },
 ];
 
