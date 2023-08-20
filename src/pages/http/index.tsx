@@ -14,7 +14,7 @@ export default function Http() {
 
     useEffect(() => {
         (async () => {
-            const { data } = await axios.get('/http.json');
+            const { data } = await axios.get('/json/http.json');
             setHttpCodes(data);
         })();
     }, []);

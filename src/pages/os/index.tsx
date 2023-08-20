@@ -29,7 +29,7 @@ export default function Os() {
                     string,
                     { version: string; name: string; release: string; addFunction: string }
                 >;
-            } = await axios.get(`/${selectOs?.toLowerCase()}.json`);
+            } = await axios.get(`/json/${selectOs?.toLowerCase()}.json`);
             const osData: OsType[] = Object.entries(data).map(([version, data]) => ({
                 version: data.version,
                 name: data.name,

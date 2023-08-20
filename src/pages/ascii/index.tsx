@@ -15,7 +15,7 @@ export default function Ascii() {
 
     useEffect(() => {
         (async () => {
-            const { data } = await axios.get<AsciiCode[]>('/ascii.json');
+            const { data } = await axios.get<AsciiCode[]>('/json/ascii.json');
             setAsciiCodes(data);
         })();
     }, []);

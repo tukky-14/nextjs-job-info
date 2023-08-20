@@ -16,7 +16,7 @@ export default function Inch() {
 
     useEffect(() => {
         (async () => {
-            const { data } = await axios.get('/inch.json');
+            const { data } = await axios.get('/json/inch.json');
             setInchList(data);
         })();
     }, []);

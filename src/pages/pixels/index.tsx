@@ -16,7 +16,7 @@ export default function Pixels() {
 
     useEffect(() => {
         (async () => {
-            const { data } = await axios.get('/pixels.json');
+            const { data } = await axios.get('/json/pixels.json');
             setPixels(data);
         })();
     }, []);
