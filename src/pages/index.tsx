@@ -7,6 +7,7 @@ import http from '../img/http.png';
 import pixels from '../img/pixels.png';
 import inch from '../img/inch.png';
 import os from '../img/os.png';
+import ad from '../img/ad.png';
 
 const infoList = [
     {
@@ -38,6 +39,11 @@ const infoList = [
         title: 'OSバージョン',
         href: '/os',
         imageSrc: os.src,
+    },
+    {
+        title: '西暦和暦',
+        href: '/ad',
+        imageSrc: ad.src,
     },
 ];
 
