@@ -8,6 +8,7 @@ import pixels from '../img/pixels.png';
 import inch from '../img/inch.png';
 import os from '../img/os.png';
 import ad from '../img/ad.png';
+import markdown from '../img/markdown.png';
 
 const infoList = [
     {
@@ -45,6 +46,11 @@ const infoList = [
         href: '/ad',
         imageSrc: ad.src,
     },
+    {
+        title: 'マークダウン記法',
+        href: '/markdown',
+        imageSrc: markdown.src,
+    },
 ];
 
 export default function Home() {
@@ -60,11 +66,9 @@ export default function Home() {
                         >
                             <img
                                 src={info.imageSrc}
-                                loading="lazy"
                                 alt="by Austin Wade"
                                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                             />
-
                             <div className="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
                                 <span className="text-lg font-bold text-gray-600 lg:text-xl">
                                     {info.title}

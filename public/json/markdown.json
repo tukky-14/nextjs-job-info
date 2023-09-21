@@ -1,0 +1,77 @@
+[
+    {
+        "notation": "#",
+        "description": "H1 ヘッダー",
+        "example": "# タイトル"
+    },
+    {
+        "notation": "##",
+        "description": "H2 ヘッダー",
+        "example": "## サブタイトル"
+    },
+    {
+        "notation": "###",
+        "description": "H3 ヘッダー",
+        "example": "### サブセクション"
+    },
+    {
+        "notation": "*",
+        "description": "箇条書き",
+        "example": "* 項目1"
+    },
+    {
+        "notation": "1.",
+        "description": "順序付きリスト",
+        "example": "1. 最初の項目"
+    },
+    {
+        "notation": ">",
+        "description": "引用",
+        "example": "> 引用文"
+    },
+    {
+        "notation": "*テキスト*",
+        "description": "斜体",
+        "example": "*斜体*"
+    },
+    {
+        "notation": "**テキスト**",
+        "description": "太字",
+        "example": "**太字**"
+    },
+    {
+        "notation": "~~テキスト~~",
+        "description": "取り消し線",
+        "example": "~~取り消し線~~"
+    },
+    {
+        "notation": "`テキスト`",
+        "description": "インラインコード",
+        "example": "`コード`"
+    },
+    {
+        "notation": "```言語\nコード\n```",
+        "description": "コードブロック",
+        "example": "```python\nprint(\"Hello, World!\")\n```"
+    },
+    {
+        "notation": "[テキスト](URL)",
+        "description": "リンク",
+        "example": "[Google](https://www.google.com)"
+    },
+    {
+        "notation": "![代替テキスト](画像URL)",
+        "description": "画像",
+        "example": "![画像の例](http://example.com/image.jpg)"
+    },
+    {
+        "notation": "---",
+        "description": "水平線",
+        "example": "---"
+    },
+    {
+        "notation": "\\[テキスト\\]",
+        "description": "エスケープ記号",
+        "example": "\\[これはリンクではありません\\]"
+    }
+]
