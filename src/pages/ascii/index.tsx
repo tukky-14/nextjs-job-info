@@ -24,9 +24,9 @@ export default function Ascii() {
         <Container>
             <Header title="アスキーコード" />
             <div className="flex justify-center text-center font-bold">
-                <p className="w-20 sm:w-40 py-1">文字</p>
-                <p className="w-20 sm:w-40 py-1">10進数</p>
-                <p className="w-20 sm:w-40 py-1">16進数</p>
+                <p className="w-20 sm:w-40 py-1 border-b border-gray-800">文字</p>
+                <p className="w-20 sm:w-40 py-1 border-b border-gray-800">10進数</p>
+                <p className="w-20 sm:w-40 py-1 border-b border-gray-800">16進数</p>
             </div>
             <div className="h-96 overflow-scroll">
                 <table className="table-auto m-auto">

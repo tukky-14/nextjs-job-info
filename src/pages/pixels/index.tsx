@@ -25,9 +25,9 @@ export default function Pixels() {
         <Container>
             <Header title="ディスプレイ解像度" />
             <div className="max-w-md m-auto flex justify-center items-center font-bold">
-                <p className="w-40 text-center">解像度</p>
-                <p className="w-40 text-center">名称</p>
-                <p className="w-40 text-center">画素数(万)</p>
+                <p className="w-40 text-center border-b border-gray-800">解像度</p>
+                <p className="w-40 text-center border-b border-gray-800">名称</p>
+                <p className="w-40 text-center border-b border-gray-800">画素数(万)</p>
             </div>
             <div className="max-w-md m-auto h-96 overflow-scroll">
                 {pixels.map((pixel) => (

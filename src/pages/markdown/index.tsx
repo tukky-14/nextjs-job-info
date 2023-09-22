@@ -24,7 +24,7 @@ export default function Http() {
         <Container>
             <Header title="マークダウン記法" />
             <div className="max-w-lg m-auto">
-                <div className="flex items-center font-bold">
+                <div className="pb-1 flex items-center font-bold border-b border-gray-800">
                     <div className="w-20 sm:w-60 ml-2 text-center sm:text-left">説明</div>
                     <div className="flex-1 ml-2 text-center sm:text-left">記法例</div>
                 </div>

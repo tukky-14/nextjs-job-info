@@ -25,10 +25,10 @@ export default function Inch() {
         <Container>
             <Header title="デバイスサイズ" />
             <div className="max-w-md m-auto flex justify-center items-center font-bold">
-                <p className="w-40 text-center">インチ</p>
-                <p className="w-40 text-center">幅</p>
-                <p className="w-40 text-center">高さ</p>
-                <p className="w-40 text-center">対角線</p>
+                <p className="w-40 text-center border-b border-gray-800">インチ</p>
+                <p className="w-40 text-center border-b border-gray-800">幅</p>
+                <p className="w-40 text-center border-b border-gray-800">高さ</p>
+                <p className="w-40 text-center border-b border-gray-800">対角線</p>
             </div>
             <div className="max-w-md m-auto h-96 overflow-scroll">
                 {inchList.map((inch) => (

@@ -60,8 +60,8 @@ export default function Holiday() {
                 <table className="table-auto m-auto">
                     <thead>
                         <tr>
-                            <th className="py-1">日付</th>
-                            <th className="py-1">名称</th>
+                            <th className="py-1 border-b border-gray-800">日付</th>
+                            <th className="py-1 border-b border-gray-800">名称</th>
                         </tr>
                     </thead>
                     <tbody>

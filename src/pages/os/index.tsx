@@ -65,7 +65,7 @@ export default function Os() {
                         </li>
                     ))}
                 </ul>
-                <div className="flex justify-center font-bold text-xs sm:text-sm">
+                <div className="flex justify-center font-bold text-xs sm:text-sm border-b border-gray-800">
                     <p className="w-28 sm:w-40 py-1">バージョン</p>
                     {selectOs === 'macos' && <p className="hidden sm:block w-24 py-1">名称</p>}
                     <p className="w-20 py-1">リリース</p>

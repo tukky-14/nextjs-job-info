@@ -22,7 +22,7 @@ export default function Http() {
     return (
         <Container>
             <Header title="HTTPステータスコード" />
-            <div className="flex items-center font-bold">
+            <div className="pb-1 flex items-center font-bold border-b border-gray-800">
                 <div className="w-16 text-center">コード</div>
                 <div className="flex-1 ml-2 w-full text-center sm:text-left">説明</div>
             </div>

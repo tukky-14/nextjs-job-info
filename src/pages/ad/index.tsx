@@ -24,8 +24,8 @@ export default function Ad() {
             <Header title="西暦和暦" />
             <div className="w-80 m-auto">
                 <div className="flex items-center font-bold">
-                    <div className="w-40 text-center">西暦</div>
-                    <div className="w-40 text-center">和暦</div>
+                    <div className="w-40 text-center border-b border-gray-800">西暦</div>
+                    <div className="w-40 text-center border-b border-gray-800">和暦</div>
                 </div>
                 <div className="h-96 overflow-scroll">
                     {adList.map((ad) => (
