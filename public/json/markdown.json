@@ -15,9 +15,34 @@
         "example": "### サブセクション"
     },
     {
+        "notation": "####",
+        "description": "H4 ヘッダー",
+        "example": "#### セクション 4"
+    },
+    {
+        "notation": "#####",
+        "description": "H5 ヘッダー",
+        "example": "##### サブセクション 5"
+    },
+    {
+        "notation": "######",
+        "description": "H6 ヘッダー",
+        "example": "###### サブセクション 6"
+    },
+    {
         "notation": "*",
         "description": "箇条書き",
         "example": "* 項目1"
+    },
+    {
+        "notation": "-",
+        "description": "箇条書き",
+        "example": "- 項目1"
+    },
+    {
+        "notation": "+",
+        "description": "箇条書き",
+        "example": "+ 項目1"
     },
     {
         "notation": "1.",
@@ -65,6 +90,11 @@
         "example": "![画像の例](http://example.com/image.jpg)"
     },
     {
+        "notation": "^[脚注内容]",
+        "description": "脚注",
+        "example": "これは脚注の例です。^[これは脚注です。]"
+    },
+    {
         "notation": "---",
         "description": "水平線",
         "example": "---"
@@ -73,5 +103,15 @@
         "notation": "\\[テキスト\\]",
         "description": "エスケープ記号",
         "example": "\\[これはリンクではありません\\]"
+    },
+    {
+        "notation": "| テーブル | ヘッダー |\n|--------|--------|\n| セル1  | セル2  |",
+        "description": "テーブル",
+        "example": "| 名前 | 年齢 |\n|------|------|\n| 太郎 | 20   |"
+    },
+    {
+        "notation": "<details><summary>要約</summary>詳細内容</details>",
+        "description": "トグルの折りたたみ",
+        "example": "<details><summary>クリックして展開</summary>これが隠された内容です。</details>"
     }
 ]
