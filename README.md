@@ -10,3 +10,4 @@ https://next-job-info.vercel.app/
 -   OS バージョン
 -   西暦和暦
 -   マークダウン記法
+-   ライセンス

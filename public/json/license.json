@@ -1,0 +1,44 @@
+[
+    {
+        "name": "MIT License",
+        "overview": "オープンソースのソフトウェアライセンスの1つ。",
+        "conditions": "配布物にライセンス文を含める",
+        "usage": "ソフトウェア"
+    },
+    {
+        "name": "Apache License 2.0",
+        "overview": "オープンソースのソフトウェアライセンス。変更点を明記する点が特徴。",
+        "conditions": "配布物にライセンスと変更点を含める",
+        "usage": "ソフトウェア"
+    },
+    {
+        "name": "GPL v3",
+        "overview": "コピーレフト型のソフトウェアライセンス。派生物も同じライセンスで公開する必要がある。",
+        "conditions": "配布物にライセンス文を含める、派生物もGPLで公開",
+        "usage": "ソフトウェア"
+    },
+    {
+        "name": "Creative Commons 0 (CC0)",
+        "overview": "著作権を放棄し、パブリックドメインとして提供するライセンス。",
+        "conditions": "特になし",
+        "usage": "画像、文書など"
+    },
+    {
+        "name": "Creative Commons BY (CC BY)",
+        "overview": "著作物の使用時に著作者名の表示が必要なライセンス。",
+        "conditions": "著作者名の表示",
+        "usage": "画像、文書など"
+    },
+    {
+        "name": "Creative Commons BY-SA (CC BY-SA)",
+        "overview": "著作物の使用と共有時に著作者名の表示と同じライセンスでの共有が必要なライセンス。",
+        "conditions": "著作者名の表示、派生物もBY-SAで公開",
+        "usage": "画像、文書など"
+    },
+    {
+        "name": "Creative Commons BY-NC (CC BY-NC)",
+        "overview": "非商用利用時に著作者名の表示が必要なライセンス。",
+        "conditions": "著作者名の表示、商用利用禁止",
+        "usage": "画像、文書など"
+    }
+]
