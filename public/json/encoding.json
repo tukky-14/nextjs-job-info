@@ -1,0 +1,42 @@
+[
+    {
+        "encoding": "ASCII",
+        "description": "1960年代初頭から使用されている7ビットの文字エンコーディング。基本的な英字のみをカバー。"
+    },
+    {
+        "encoding": "ISO 8859-1",
+        "description": "ラテン文字1、または 'Western European' としても知られるエンコーディング。"
+    },
+    {
+        "encoding": "UTF-8",
+        "description": "Unicodeのための可変長エンコーディング。Web上で最も広く使用されているエンコーディング。"
+    },
+    {
+        "encoding": "UTF-16",
+        "description": "Unicodeのための可変長または固定長のエンコーディング。多くのモダンなシステムやWindowsの内部で使用されている。"
+    },
+    {
+        "encoding": "UTF-32",
+        "description": "Unicodeのための固定長エンコーディング。"
+    },
+    {
+        "encoding": "GB2312 / GBK / GB18030",
+        "description": "中国の簡体字文字を表すためのエンコーディング群。"
+    },
+    {
+        "encoding": "Big5",
+        "description": "台湾や香港の繁体字文字を表すためのエンコーディング。"
+    },
+    {
+        "encoding": "Shift-JIS",
+        "description": "日本語の文字を表すためのエンコーディング。"
+    },
+    {
+        "encoding": "EUC-JP",
+        "description": "日本語の文字を表すための別のエンコーディング方式。"
+    },
+    {
+        "encoding": "KOI8-R",
+        "description": "ロシア語を表すためのエンコーディング。"
+    }
+]

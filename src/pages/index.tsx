@@ -10,6 +10,7 @@ import os from '../img/os.png';
 import ad from '../img/ad.png';
 import markdown from '../img/markdown.png';
 import license from '../img/license.png';
+import encoding from '../img/encoding.png';
 
 const infoList = [
     {
@@ -56,6 +57,11 @@ const infoList = [
         title: 'ライセンス',
         href: '/license',
         imageSrc: license.src,
+    },
+    {
+        title: '文字エンコーディング',
+        href: '/encoding',
+        imageSrc: encoding.src,
     },
 ];
 
