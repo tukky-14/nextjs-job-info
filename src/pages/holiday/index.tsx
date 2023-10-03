@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { API_ENDPOINT } from '@/consts/api';
 import Container from '@/components/Container';
+import { MaterialSymbolsContentCopyOutline } from '@/components/MaterialSymbolsContentCopyOutline';
 
 export default function Holiday() {
     const [years, setYears] = useState<string[]>([]);
@@ -57,7 +58,8 @@ export default function Holiday() {
                         </li>
                     ))}
                 </ul>
-                <table className="table-auto m-auto">
+                <table className="table-auto m-auto relative">
+                    <MaterialSymbolsContentCopyOutline className="absolute -top-5 right-0 text-xl text-blue-600 hover:text-blue-400" />
                     <thead>
                         <tr>
                             <th className="py-1 border-b border-gray-800">日付</th>
