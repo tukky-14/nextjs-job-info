@@ -42,6 +42,15 @@ export default function Holiday() {
         setSelectHolidays(holidays.filter((holiday: any) => holiday.date.slice(0, 4) === year));
     };
 
+    /**
+     * クリップボードにコピー
+     */
+    const copyToClipboard = async () => {
+        await global.navigator.clipboard.writeText(
+            selectHolidays.map((holiday: any) => `${holiday.date} ${holiday.name}`).join('\n')
+        );
+    };
+
     return (
         <Container>
             <Header title="祝日" />
@@ -59,7 +68,9 @@ export default function Holiday() {
                     ))}
                 </ul>
                 <table className="table-auto m-auto relative">
-                    <MaterialSymbolsContentCopyOutline className="absolute -top-5 right-0 text-xl text-blue-600 hover:text-blue-400" />
+                    <button onClick={copyToClipboard}>
+                        <MaterialSymbolsContentCopyOutline className="absolute -top-5 right-0 text-xl text-blue-600 hover:text-blue-400" />
+                    </button>
                     <thead>
                         <tr>
                             <th className="py-1 border-b border-gray-800">日付</th>
