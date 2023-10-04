@@ -5,11 +5,13 @@ import axios from 'axios';
 import { API_ENDPOINT } from '@/consts/api';
 import Container from '@/components/Container';
 import { MaterialSymbolsContentCopyOutline } from '@/components/MaterialSymbolsContentCopyOutline';
+import { Tooltip } from '@mui/material';
 
 export default function Holiday() {
     const [years, setYears] = useState<string[]>([]);
     const [holidays, setHolidays] = useState([{ date: '', name: '' }]);
     const [selectHolidays, setSelectHolidays] = useState([{ date: '', name: '' }]);
+    const [copyText, setCopyText] = useState('copy');
 
     useEffect(() => {
         (async () => {
@@ -46,9 +48,13 @@ export default function Holiday() {
      * クリップボードにコピー
      */
     const copyToClipboard = async () => {
+        setCopyText('copied!');
         await global.navigator.clipboard.writeText(
             selectHolidays.map((holiday: any) => `${holiday.date} ${holiday.name}`).join('\n')
         );
+        setTimeout(() => {
+            setCopyText('copy');
+        }, 1000);
     };
 
     return (
@@ -68,9 +74,15 @@ export default function Holiday() {
                     ))}
                 </ul>
                 <table className="table-auto m-auto relative">
-                    <button onClick={copyToClipboard}>
-                        <MaterialSymbolsContentCopyOutline className="absolute -top-5 right-0 text-xl text-blue-600 hover:text-blue-400" />
-                    </button>
+                    <Tooltip
+                        title={copyText}
+                        placement="right-start"
+                        className="absolute -top-5 right-0"
+                    >
+                        <button onClick={copyToClipboard}>
+                            <MaterialSymbolsContentCopyOutline className="text-xl text-blue-600 hover:text-blue-400" />
+                        </button>
+                    </Tooltip>
                     <thead>
                         <tr>
                             <th className="py-1 border-b border-gray-800">日付</th>
